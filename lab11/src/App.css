@@ -1,0 +1,25 @@
+*{
+  
+  box-sizing: border-box;
+
+}
+.subtitle{color: rgb(255, 145, 0); font-style: italic;}
+img{
+  width: 100%;
+  display: block;
+}
+.introimg{
+  border: ridge 2px rgb(20, 255, 173);
+  width: 400px;
+  margin: auto;
+
+}
+
+.footer{
+  margin-top: 2rem;
+  padding: 2rem;
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+  font-style: initial;
+}
