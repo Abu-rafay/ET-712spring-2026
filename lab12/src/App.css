@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.title {
+  text-align: center;
+  color: darkblue;
+  margin: 1.5rem 0;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.header {
+  color: darkblue;
+  text-align: center;
+}
+
+.maincontainer {
+  width: 900px;
+  max-width: 90%;
+  margin: 2rem auto;
+  overflow: hidden;
+  border-radius: 1rem;
+}
+
+.navbar {
+  background-color: darkorange;
+  padding: 1rem;
+}
+
+.navbar-content {
+  width: 900px;
+  max-width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-content a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.btngroup {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+}
+
+.btn:hover {
+  color: darkblue;
+}
+
+.cardcontainer {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.card {
+  width: 50%;
+  background-color: white;
+  color: darkblue;
+  text-decoration: none;
+  padding: 2rem;
+  border-radius: 1rem;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card:hover {
+  background-color: darkorange;
+  color: white;
+}
+
+.pagebox {
+  background-color: white;
+  padding: 2rem;
+  text-align: center;
+}
